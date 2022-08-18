@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --corFundoBody: #5c65c0;
+    --corFundoCard: #6f95ff;
+    --corFundoBotao: #2b9eb3;
+}
+
+body{
+    background-color: var(--corFundoBody);
+}
+
+.container{
+    background-color: var(--corFundoCard);
+    padding: 3em 2.5em;
+    width: 100vw;
+    max-width: 37.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+}
+
+.campo-busca {
+    display: grid;
+    grid-template-columns: 10fr 3fr;
+    gap: 10px;
+}
+
+.campo-busca input {
+    font-size: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    
+}
+
+.campo-busca button {
+    font-size: 20px;
+    background-color: var(--corFundoBotao);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 1.5em;
+}
+
+.container .imagem-pais {
+    display: block;
+    width: 50%;
+    min-width: 200px;
+    margin: 1.8em auto;
+}
+
+.container h2 {
+    font-weigth: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+}
+
+.container h4 {
+    display: inline;
+    font-weigth: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.container h3 {
+    font-weigth: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+    margin-top:4em;
+}
+
+.container span {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weigth: 500;
+    color: #5d4594;
+}
+
+.container-result {
+    margin-bottom: 0.9em;
+    text-align: left;
+    padding-left: 8.1em;
+}
