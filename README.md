@@ -5,7 +5,7 @@
 ### Url para Acesso ao Site: https://cristiancaetano29.github.io/Dados-de-Paises/
 
 ##
-### INFO
+### INFO:
 
 ### Um Mini Projeto em JavaScript, Html e css Consumindo dados de uma api.
 
