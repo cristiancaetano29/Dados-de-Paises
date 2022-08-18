@@ -47,7 +47,15 @@ body{
     padding: 10px;
     border: none;
     border-radius: 1.5em;
+    cursor: pointer;
 }
+
+.campo-busca button:hover {
+    background-color: blue; 
+    transition: 0.3s ease-in;
+    animation: rotate 2s linear;
+}
+
 
 .container .imagem-pais {
     display: block;
@@ -91,4 +99,13 @@ body{
     margin-bottom: 0.9em;
     text-align: left;
     padding-left: 8.1em;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
