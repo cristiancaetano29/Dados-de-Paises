@@ -1,5 +1,6 @@
-# API DOS PAÍSES FORA DO AR NO MOMENTO  
-<!--Dados-de-Países-->
+# Dados-de-Países
+<!--API DOS PAÍSES FORA DO AR NO MOMENTO -->
+
 
 <img src="https://www.suno.com.br/wp-content/uploads/2021/02/principais-bolsas-de-valores-do-mundo-scaled.jpg" alt="World" width="420px" height="370px">
 
@@ -10,5 +11,5 @@
 
 ### Um Mini Projeto em JavaScript, Html e css Consumindo dados de uma api.
 
-### API FORA DO AR NO MOMENTO
+### A API pode não funcionar em alguns aparelhos / navegadores
 
