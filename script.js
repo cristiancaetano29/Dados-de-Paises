@@ -10,6 +10,7 @@ buscarPaís.addEventListener('click', function () {
     fetch(URL)
         .then((retorno) => retorno.json())
         .then((dados) => {
+            console.log(dados)
             resultadoBusca.innerHTML = `
                 <img src="${dados[0].flags.svg}"
                 class="imagem-pais">
